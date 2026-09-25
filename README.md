@@ -41,8 +41,8 @@ catch-the-stars/
 - [x] Create HTML structure
 - [x] Create game canvas
 - [x] Connect JavaScript
-- [ ] Create player
-- [ ] Add player movement
+- [x] Create player
+- [x] Add player movement
 - [ ] Create falling stars
 - [ ] Add collision detection
 - [ ] Add scoring
@@ -52,3 +52,14 @@ catch-the-stars/
 - [ ] Add increasing difficulty
 - [ ] Add sound
 - [ ] Polish game
+
+## Step 3: Player Movement
+
+The player can move horizontally using the keyboard.
+
+### Controls
+
+- Left Arrow - Move left
+- Right Arrow - Move right
+
+The player's movement is controlled using JavaScript keyboard events.

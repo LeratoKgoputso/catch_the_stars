@@ -43,7 +43,7 @@ catch-the-stars/
 - [x] Connect JavaScript
 - [x] Create player
 - [x] Add player movement
-- [ ] Create falling stars
+- [x] Create falling stars
 - [ ] Add collision detection
 - [ ] Add scoring
 - [ ] Add lives
@@ -63,3 +63,14 @@ The player can move horizontally using the keyboard.
 - Right Arrow - Move right
 
 The player's movement is controlled using JavaScript keyboard events.
+## Step 5: Star Creation
+
+A star object was created using JavaScript.
+
+The star has:
+
+- X position
+- Y position
+- Size
+
+The star is currently displayed near the top of the game canvas.

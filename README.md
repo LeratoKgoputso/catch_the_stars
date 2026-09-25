@@ -43,7 +43,9 @@ catch-the-stars/
 - [x] Connect JavaScript
 - [x] Create player
 - [x] Add player movement
+- [x] Add boundaries
 - [x] Create falling stars
+- [x] Star reset
 - [ ] Add collision detection
 - [ ] Add scoring
 - [ ] Add lives
@@ -74,3 +76,19 @@ The star has:
 - Size
 
 The star is currently displayed near the top of the game canvas.
+## Step 6: Falling Star
+
+A game loop was introduced using `requestAnimationFrame()`.
+
+The star's Y position is continuously increased using its falling speed.
+
+This creates continuous downward movement.
+## Step 7: Star Reset
+
+When the star reaches the bottom of the canvas, it is moved back
+to the top.
+
+A random X position is generated using `Math.random()` so the star
+can appear in different horizontal positions.
+
+This creates unpredictable star positions for the player.

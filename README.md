@@ -32,7 +32,7 @@ catch-the-stars/
 │
 ├── index.html
 ├── style.css
-├── game.js
+├── stars.js
 └── README.md
 
 ## Current Progress

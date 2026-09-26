@@ -47,8 +47,8 @@ catch-the-stars/
 - [x] Create falling stars
 - [x] Star reset
 - [x] Add collision detection
-- [ ] Add scoring
-- [ ] Add lives
+- [x] Add scoring
+- [x] Add lives
 - [ ] Add game over
 - [ ] Add restart
 - [ ] Add increasing difficulty
@@ -103,5 +103,21 @@ to the top.
 
 A random X position is generated using `Math.random()` so the star
 can appear in different horizontal positions.
+
+## Step 10: Lives System
+
+The game starts with 3 lives.
+
+When the player catches a star:
+
+- The score increases by 1.
+
+When the player misses a star:
+
+- One life is removed.
+- The star is reset to the top.
+
+The game currently allows the player to continue even when
+the lives reach zero. Game Over will be added in a later step.
 
 This creates unpredictable star positions for the player.

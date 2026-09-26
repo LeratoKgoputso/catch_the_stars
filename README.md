@@ -46,7 +46,7 @@ catch-the-stars/
 - [x] Add boundaries
 - [x] Create falling stars
 - [x] Star reset
-- [ ] Add collision detection
+- [x] Add collision detection
 - [ ] Add scoring
 - [ ] Add lives
 - [ ] Add game over
@@ -86,6 +86,19 @@ This creates continuous downward movement.
 ## Step 7: Star Reset
 
 When the star reaches the bottom of the canvas, it is moved back
+## Step 8: Collision Detection
+
+Collision detection was added to determine when the player catches
+the falling star.
+
+**When a collision occurs:**
+
+1. A message is displayed in the browser console.
+2. The star is reset to the top.
+3. A new random horizontal position is selected.
+
+The collision system will later be connected to the scoring system.
+
 to the top.
 
 A random X position is generated using `Math.random()` so the star
